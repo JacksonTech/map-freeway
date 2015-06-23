@@ -2,7 +2,7 @@ textures/freeway_custom/city1
 {
 	qer_editorImage     textures/freeway_custom/city1_d
 
-	q3map_surfacelight  80
+	q3map_surfacelight  50
 	q3map_lightRGB      1.0 1.0 0.92
 
 	diffuseMap          textures/freeway_custom/city1_d
@@ -10,8 +10,8 @@ textures/freeway_custom/city1
 	{
 		map   textures/freeway_custom/city1_g
 		blend add
-		red 0.7
-		green 0.7
+		red 0.75
+		green 0.77
 		blue 0.6
 	}
 
@@ -23,17 +23,17 @@ textures/freeway_custom/city1_blue
 {
 	qer_editorImage     textures/freeway_custom/city1_d
 
-	q3map_surfacelight  80
+	q3map_surfacelight  50
 	q3map_lightRGB      0.92 1.0 1.0
 
 	diffuseMap          textures/freeway_custom/city1_d
 
 	{
-		map   textures/freeway_custom/city1_g_blue
+		map   textures/freeway_custom/city1_g
 		blend add
-		red 0.6
-		green 0.7
-		blue 0.7
+		red 0.78
+		green 0.81
+		blue 0.88
 	}
 
 	surfaceparm noimpact
@@ -44,7 +44,7 @@ textures/freeway_custom/city2
 {
 	qer_editorImage     textures/freeway_custom/city2_d
 
-	q3map_surfacelight  80
+	q3map_surfacelight  50
 	q3map_lightRGB      1.0 1.0 0.92
 
 	diffuseMap          textures/freeway_custom/city2_d
@@ -52,7 +52,7 @@ textures/freeway_custom/city2
 	{
 		map   textures/freeway_custom/city2_g
 		blend add
-		red 0.7
+		red 0.75
 		green 0.7
 		blue 0.6
 	}
@@ -65,17 +65,17 @@ textures/freeway_custom/city2_blue
 {
 	qer_editorImage     textures/freeway_custom/city2_d
 
-	q3map_surfacelight  80
+	q3map_surfacelight  50
 	q3map_lightRGB      0.92 1.0 1.0
 
 	diffuseMap          textures/freeway_custom/city2_d
 
 	{
-		map   textures/freeway_custom/city2_g_blue
+		map   textures/freeway_custom/city2_g
 		blend add
-		red 0.6
-		green 0.7
-		blue 0.7
+		red 0.72
+		green 0.85
+		blue 0.85
 	}
 
 	surfaceparm noimpact

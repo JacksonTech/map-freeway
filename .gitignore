@@ -1,3 +1,5 @@
+maps/*.autosave.map
+maps/*.bak
 maps/freeway/
 maps/*.srf
 maps/*.prt

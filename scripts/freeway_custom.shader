@@ -19,6 +19,28 @@ textures/freeway_custom/city1
 	surfaceparm nolightmap
 }
 
+textures/freeway_custom/city1_partial
+{
+	qer_editorImage     textures/freeway_custom/city1_d
+
+	q3map_surfacelight  50
+	q3map_lightRGB      1.0 1.0 0.92
+
+	diffuseMap          textures/freeway_custom/city1_d
+
+	{
+		map   textures/freeway_custom/city1_g2
+		blend add
+		red 0.75
+		green 0.77
+		blue 0.6
+		tcMod scale 1.0 0.5
+	}
+
+	surfaceparm noimpact
+	surfaceparm nolightmap
+}
+
 textures/freeway_custom/city1_blue
 {
 	qer_editorImage     textures/freeway_custom/city1_d
@@ -34,6 +56,28 @@ textures/freeway_custom/city1_blue
 		red 0.78
 		green 0.81
 		blue 0.88
+	}
+
+	surfaceparm noimpact
+	surfaceparm nolightmap
+}
+
+textures/freeway_custom/city1_blue_partial
+{
+	qer_editorImage     textures/freeway_custom/city1_d
+
+	q3map_surfacelight  50
+	q3map_lightRGB      0.92 1.0 1.0
+
+	diffuseMap          textures/freeway_custom/city1_d
+
+	{
+		map   textures/freeway_custom/city1_g2
+		blend add
+		red 0.78
+		green 0.81
+		blue 0.88
+		tcMod scale 1.0 0.5
 	}
 
 	surfaceparm noimpact
@@ -61,6 +105,28 @@ textures/freeway_custom/city2
 	surfaceparm nolightmap
 }
 
+textures/freeway_custom/city2_partial
+{
+	qer_editorImage     textures/freeway_custom/city2_d
+
+	q3map_surfacelight  50
+	q3map_lightRGB      1.0 1.0 0.92
+
+	diffuseMap          textures/freeway_custom/city2_d
+	
+	{
+		map   textures/freeway_custom/city2_g2
+		blend add
+		red 0.75
+		green 0.7
+		blue 0.6
+		tcMod scale 1.0 0.5
+	}
+
+	surfaceparm noimpact
+	surfaceparm nolightmap
+}
+
 textures/freeway_custom/city2_blue
 {
 	qer_editorImage     textures/freeway_custom/city2_d
@@ -76,6 +142,28 @@ textures/freeway_custom/city2_blue
 		red 0.72
 		green 0.85
 		blue 0.85
+	}
+
+	surfaceparm noimpact
+	surfaceparm nolightmap
+}
+
+textures/freeway_custom/city2_blue_partial
+{
+	qer_editorImage     textures/freeway_custom/city2_d
+
+	q3map_surfacelight  50
+	q3map_lightRGB      0.92 1.0 1.0
+
+	diffuseMap          textures/freeway_custom/city2_d
+
+	{
+		map   textures/freeway_custom/city2_g2
+		blend add
+		red 0.72
+		green 0.85
+		blue 0.85
+		tcMod scale 1.0 0.5
 	}
 
 	surfaceparm noimpact
